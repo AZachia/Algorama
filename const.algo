@@ -1,0 +1,34 @@
+Début
+
+    #boolens
+    Vrai <- True
+    Faux <- False
+
+    # None
+    Rien <- None
+
+    #Couleurs
+    rouge <- "\x1b[31m"
+    bleu <- "\x1b[34m"
+    vert <- "\x1b[32m"
+
+    normal <- "\x1b[0m"
+
+
+
+
+
+    fonction moy:
+        variables:
+            liste
+            finvariables
+        algo:
+            somme <- 0
+            taille <- executer len liste
+            taille <- taille - 1
+            pour element de 0 à taille:
+                somme <- somme + element
+                FinPour
+            return somme/taille
+            finalgo
+    Fin
