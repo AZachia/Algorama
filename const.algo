@@ -30,5 +30,5 @@ Début
                 somme <- somme + element
                 FinPour
             return somme/taille
-            finalgo
+            FinAlgo
     Fin
